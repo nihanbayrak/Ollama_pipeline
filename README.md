@@ -1,6 +1,6 @@
 # DSPy + LangGraph: Client Brief → Design Brief → Concept Image
 
-A multi-agent AI pipeline that turns a raw client packaging brief into a full design brief and a first-concept packaging image — running 100% locally via Ollama.
+A proof-of-concept Jupyter notebook. It takes a client's packaging brief and produces a design brief (JSON and PDF) and a first concept image. Four DSPy agents (trend analyst, design strategist, brief compiler, visual draft) run in sequence under a LangGraph supervisor. Everything runs on a local 3B model through Ollama, so the brief never leaves the machine. Output quality is limited by the small model; the table below lists the models each step would use in production.
 
 ## Pipeline Overview
 
